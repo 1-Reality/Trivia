@@ -1,0 +1,79 @@
+= MediaWiki 黄色高亮专项实验 =
+
+目标：只解决“侧着站”的黄色底纹。红、蓝 MathJax 已经验证成功，不再重复折腾其基本语法。
+
+== A. 已知成功基线 ==
+
+红：$\color{red}{\textsf{红色基线}}$
+
+蓝：$\color{blue}{\textsf{蓝色基线}}$
+
+== B. 已知失败基线：colorbox ==
+
+$\colorbox{yellow}{\textsf{侧着站}}$
+
+== C. MathJax bbox 候选 ==
+
+C1：
+
+$\bbox[yellow]{\textsf{侧着站}}$
+
+C2：
+
+$\bbox[background:yellow]{\textsf{侧着站}}$
+
+C3：
+
+$\bbox[4px,background:yellow]{\textsf{侧着站}}$
+
+== D. MathJax fcolorbox 候选 ==
+
+D1：
+
+$\fcolorbox{black}{yellow}{\textsf{侧着站}}$
+
+D2：
+
+$\fcolorbox{yellow}{yellow}{\textsf{侧着站}}$
+
+== E. MediaWiki 表格单元格 bgcolor ==
+
+{| border="1" cellspacing="0" cellpadding="8"
+|-
+| 普通单元格
+|-
+| bgcolor="#FFFF00" | '''侧着站'''
+|}
+
+== F. MediaWiki 表格单元格 style ==
+
+{| border="1" cellspacing="0" cellpadding="8"
+|-
+| style="background-color:#FFFF00;" | '''侧着站'''
+|}
+
+== G. HTML 旧式 bgcolor ==
+
+<table border="1">
+<tr><td bgcolor="#FFFF00">'''侧着站'''</td></tr>
+</table>
+
+== H. HTML span / mark 基线 ==
+
+H1：
+
+<span style="background-color:#FFFF00;">侧着站</span>
+
+H2：
+
+<mark>侧着站</mark>
+
+== I. 纯数学框线退路，不要求黄色 ==
+
+I1：
+
+$\boxed{\textsf{侧着站}}$
+
+I2：
+
+$\color{blue}{\boxed{\textsf{侧着站}}}$
