@@ -1,0 +1,53 @@
+= MediaWiki / MathJax / LaTeX 渲染实验 =
+
+本文件只用于观察 GitHub 对 MediaWiki 文件的实际渲染行为。
+
+== A. 美元符号 MathJax ==
+
+红色候选：
+
+$\color{red}{\textsf{正在小便的同学容易将液体溅到正在大便中的人的身上。}}$
+
+蓝色候选：
+
+$\color{blue}{\textsf{尽量往后站}}$
+
+== B. 反斜杠圆括号 ==
+
+红色候选：
+
+\(\color{red}{\textsf{正在小便的同学容易将液体溅到正在大便中的人的身上。}}\)
+
+蓝色候选：
+
+\(\color{blue}{\textsf{尽量往后站}}\)
+
+== C. MediaWiki math 标签 ==
+
+红色候选：
+
+<math>\color{red}{\textsf{正在小便的同学容易将液体溅到正在大便中的人的身上。}}</math>
+
+蓝色候选：
+
+<math>\color{blue}{\textsf{尽量往后站}}</math>
+
+== D. math 标签 + textcolor ==
+
+红色候选：
+
+<math>\textcolor{red}{\textsf{正在小便的同学容易将液体溅到正在大便中的人的身上。}}</math>
+
+蓝色候选：
+
+<math>\textcolor{blue}{\textsf{尽量往后站}}</math>
+
+== E. HTML 语义标签基线 ==
+
+'''粗体基线'''
+
+<mark>黄色高亮基线</mark>
+
+<font color="red">HTML font 红色基线</font>
+
+<font color="blue">HTML font 蓝色基线</font>
