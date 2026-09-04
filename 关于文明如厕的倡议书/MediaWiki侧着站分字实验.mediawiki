@@ -1,0 +1,53 @@
+= MediaWiki“侧着站”分字强调实验 =
+
+目标：确认 GitHub MediaWiki + MathJax 对中文短语整体/局部强调的实际行为。
+
+== A. 三个字整体套用，当前正式写法 ==
+
+$\color{goldenrod}{\underline{\textsf{侧着站}}}$
+
+== B. 只强调前两个字“侧着” ==
+
+$\color{goldenrod}{\underline{\textsf{侧着}}}\textsf{站}$
+
+== C. 只强调第一个字“侧” ==
+
+$\color{goldenrod}{\underline{\textsf{侧}}}\textsf{着站}$
+
+== D. 三个字拆开，但每个字分别应用相同样式 ==
+
+$\color{goldenrod}{\underline{\textsf{侧}}}\color{goldenrod}{\underline{\textsf{着}}}\color{goldenrod}{\underline{\textsf{站}}}$
+
+== E. 只给“侧着”着色，下划线仅给“侧” ==
+
+$\color{goldenrod}{\underline{\textsf{侧}}\textsf{着}}\textsf{站}$
+
+== F. 只给“侧”着色和下划线，其余使用普通 MediaWiki 文本 ==
+
+$\color{goldenrod}{\underline{\textsf{侧}}}$着站
+
+== G. MediaWiki 原生粗体对照 ==
+
+'''侧着站'''
+
+== H. MediaWiki 只粗体“侧着” ==
+
+'''侧着'''站
+
+== I. MediaWiki 只粗体“侧” ==
+
+'''侧'''着站
+
+== J. 正文混排对照 ==
+
+（或者 $\color{goldenrod}{\underline{\textsf{侧着站}}}$，宁可溅墙不可溅人）
+
+（或者 $\color{goldenrod}{\underline{\textsf{侧着}}}\textsf{站}$，宁可溅墙不可溅人）
+
+（或者 $\color{goldenrod}{\underline{\textsf{侧}}}$着站，宁可溅墙不可溅人）
+
+（或者 '''侧着站'''，宁可溅墙不可溅人）
+
+（或者 '''侧着'''站，宁可溅墙不可溅人）
+
+（或者 '''侧'''着站，宁可溅墙不可溅人）
