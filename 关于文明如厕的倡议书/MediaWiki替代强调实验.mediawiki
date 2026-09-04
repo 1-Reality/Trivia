@@ -48,9 +48,9 @@ C1 下划线：
 
 $\underline{\textsf{侧着站}}$
 
-C2 橙色下划线：
+C2 金琥珀色下划线：
 
-$\color{orange}{\underline{\textsf{侧着站}}}$
+$\color{goldenrod}{\underline{\textsf{侧着站}}}$
 
 C3 上划线：
 
@@ -94,7 +94,7 @@ E5：
 
 == F. 与正文混排效果 ==
 
-在坑中小便时，$\color{orange}{\underline{\mathbf{\textsf{侧着站}}}}$，宁可溅墙不可溅人。
+在坑中小便时，$\color{goldenrod}{\underline{\textsf{侧着站}}}$，宁可溅墙不可溅人。
 
 在坑中小便时，🟨 '''侧着站'''，宁可溅墙不可溅人。
 
