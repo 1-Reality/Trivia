@@ -1,0 +1,101 @@
+= MediaWiki 替代强调方式实验 =
+
+目标：黄色底纹不可用时，寻找最醒目、最接近原意的“侧着站”强调方式。
+
+== A. 原生 MediaWiki 强调 ==
+
+A1 粗体：
+
+'''侧着站'''
+
+A2 粗斜体：
+
+'''''侧着站'''''
+
+A3 删除线对照：
+
+<del>侧着站</del>
+
+A4 下划线候选：
+
+<u>侧着站</u>
+
+A5 键帽候选：
+
+<kbd>侧着站</kbd>
+
+A6 代码样式候选：
+
+<code>侧着站</code>
+
+== B. MathJax 颜色强调 ==
+
+B1 橙色：
+
+$\color{orange}{\textsf{侧着站}}$
+
+B2 金色候选：
+
+$\color{gold}{\textsf{侧着站}}$
+
+B3 黄色文字候选：
+
+$\color{yellow}{\textsf{侧着站}}$
+
+== C. MathJax 线条强调 ==
+
+C1 下划线：
+
+$\underline{\textsf{侧着站}}$
+
+C2 橙色下划线：
+
+$\color{orange}{\underline{\textsf{侧着站}}}$
+
+C3 上划线：
+
+$\overline{\textsf{侧着站}}$
+
+== D. MathJax 粗体组合 ==
+
+D1 粗体：
+
+$\mathbf{\textsf{侧着站}}$
+
+D2 橙色粗体：
+
+$\color{orange}{\mathbf{\textsf{侧着站}}}$
+
+D3 橙色粗体下划线：
+
+$\color{orange}{\underline{\mathbf{\textsf{侧着站}}}}$
+
+== E. 纯 Unicode / 符号强调 ==
+
+E1：
+
+🟨 '''侧着站'''
+
+E2：
+
+⚠️ '''侧着站'''
+
+E3：
+
+【'''侧着站'''】
+
+E4：
+
+▌'''侧着站'''
+
+E5：
+
+→ '''侧着站''' ←
+
+== F. 与正文混排效果 ==
+
+在坑中小便时，$\color{orange}{\underline{\mathbf{\textsf{侧着站}}}}$，宁可溅墙不可溅人。
+
+在坑中小便时，🟨 '''侧着站'''，宁可溅墙不可溅人。
+
+在坑中小便时，【'''侧着站'''】，宁可溅墙不可溅人。
